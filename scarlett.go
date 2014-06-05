@@ -10,7 +10,7 @@ package scarlett
 
 import (
 	"database/sql"
-	log "github.com/golang/glog"
+	log "github.com/xiocode/glog"
 )
 
 type Scarlett struct {

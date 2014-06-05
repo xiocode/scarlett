@@ -24,7 +24,7 @@ func TestScarlett(t *testing.T) {
 
 	var user Users
 
-	err := s.Query(&user, nil, "SELECT id,uid,screen_name FROM tb_xweibo_users LIMIT 1;")
+	err := s.Query(&user, nil, "SELECT id,uid,screen_name FROM tb_xweibo_user_info LIMIT 1;")
 	if err != nil {
 		t.Error(err)
 	}
